@@ -65,12 +65,27 @@ const car = {
   // Change the `model` property of `myCar` to 'q7'. Log both objects.
   
   // Your code here
-const myCar = {...car}
+const myCar = {...car};
 
 myCar.model = 'q7'
 
 console.log('originalModel', car);
 console.log('newModel', myCar);
+
+
+// ********EXERCISE 6********
+
+// Create an object named userProfile. 
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+
+// Your code here
+const propertyName = 'username'
+userProfile[propertyName] = 'nickiminajisthequeen'
+
+console.log(userProfile);
+
+
 
 
   
