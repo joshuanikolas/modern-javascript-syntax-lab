@@ -86,6 +86,25 @@ userProfile[propertyName] = 'nickiminajisthequeen'
 console.log(userProfile);
 
 
+// ********EXERCISE 8********
+
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+
+// 1. `cat`
+
+// 2. `white`
+
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+// Your code here
+function animals(noun = 'cat', adjective = 'white') {
+    console.log("the" + noun + "is" + adjective)
+}
+animals()
+
+
+
+
 
 
   
